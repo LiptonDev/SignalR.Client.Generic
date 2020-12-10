@@ -30,7 +30,7 @@ public interface ISecondHubModel
 ## Step 2
 Create server and hub.  
 Hub must implement next interfaces: IChatHubEvents, ISecondHubModel  
-In example Hub was created as partial class:  
+In example Hub was created as a partial class:  
 ```C#
 public partial class MainHub : Hub<IChatHubEvents>
 {
@@ -120,7 +120,7 @@ var chatProxy = hubConnection.GetHubProxy<IChatHubModel>();
 var secondProxy = hubConnection.GetHubProxy<ISecondHubModel>();
 ```
 
-Now we ready connect to server (proxy may create after/before connection)
+Now we ready to connect to server (proxy may create after/before connection)
 ```C#
 await hubConnection.Connection.StartAsync();
 ```
@@ -137,7 +137,7 @@ foreach (var item in randInts)
 
 It works!
 
-Let's try to send message to chat:
+Let's try to send a message to chat:
 ```C#
 Console.Write("Input name: ");
 var name = Console.ReadLine();
