@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Microsoft.AspNetCore.SignalR.Client.Generic</RootNamespace>
+    <AssemblyName>Microsoft.AspNetCore.SignalR.Client.Generic</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Core" Version="4.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="5.0.0" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
