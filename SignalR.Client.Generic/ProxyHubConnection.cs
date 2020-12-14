@@ -75,7 +75,7 @@ namespace Microsoft.AspNetCore.SignalR.Client.Generic
         /// <returns></returns>
         public IDisposable RegisterCallbacks<TCallbacks>(TCallbacks clientCallbacks) where TCallbacks : class
         {
-            var methods = typeof(TCallbacks).GetMethods();
+            var methods = clientCallbacks.GetType().GetMethods();
             var disposables = methods.Select(methodInfo =>
             {
                 var parameterTypes = methodInfo.GetParameters().Select(p => p.ParameterType).ToArray();

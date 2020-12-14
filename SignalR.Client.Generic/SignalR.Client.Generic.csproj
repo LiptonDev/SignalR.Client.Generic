@@ -4,6 +4,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Microsoft.AspNetCore.SignalR.Client.Generic</RootNamespace>
     <AssemblyName>Microsoft.AspNetCore.SignalR.Client.Generic</AssemblyName>
+    <Version>1.0.1</Version>
+    <Authors>Alexandr Smirnov</Authors>
+    <Company>Alexandr Smirnov</Company>
+    <Description>Microsoft.AspNetCore.SignalR generic client</Description>
+    <Copyright>Alexandr Smirnov</Copyright>
+    <PackageProjectUrl>https://github.com/LiptonOlolo/SignalR.Client.Generic</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/LiptonOlolo/SignalR.Client.Generic</RepositoryUrl>
+    <PackageTags>signalr signalr.core signalr.client signalr.core.client asp.net</PackageTags>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
